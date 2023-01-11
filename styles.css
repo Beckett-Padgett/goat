@@ -1,0 +1,87 @@
+
+body{
+    background-image: url(images/background.png);
+    background-size: auto, 100%;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{text-decoration: solid;font-weight: bold;}
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:dimgray;
+}
+#home{
+    width: 80px; 
+    vertical-align: -70%;
+}
+.head{
+    background-color: rgba(248, 248, 255, 0.8);
+    border-radius: 10px;
+    display: inline;
+    padding: 8px;
+    word-spacing: 20px;
+    padding-inline: 25px;
+    position: fixed;
+    margin-top: 0;
+    }
+#box{
+    background-color: rgba(248, 248, 255, 0.95);
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    overflow:scroll;
+    height: 100%;
+    font-size: 2.5vw;
+}
+#box::-webkit-scrollbar{
+    display: none;
+}
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:rgb(78, 78, 78);
+}
+#hr{
+    background-color:rgb(248, 248, 255);
+    padding: 2px;
+}
+#display{
+    float: right;
+    width: 25%;
+    margin: 1%;
+    border-radius: 5px;
+}
+#display1{
+    float: right;
+    width: 35%;
+    margin: 1%;
+    border-radius: 5px;
+}
+#psa{
+    font-size: 1.5vw;
+    color:burlywood;
+}
+p{
+    text-align: justify;
+    color:darkslategray;
+    margin: 1%;
+}
+.portrait{
+    width: 17%;
+    float: left;
+    border-radius: 5px;
+    margin: 1%;
+}
+#underdark{
+    height: 100px;
+}
